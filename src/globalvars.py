@@ -14,7 +14,7 @@ DB_NAME = os.getenv('DB_NAME')
 SQL_CONNECTION_STRING = os.getenv('SQLALCHEMY_DATABASE_URI')
 
 """MONGO"""
-MONGO_CONNECTION_STRING = 'mongodb+srv://desenvolvimento_tis4:tis4@cluster0.ouioq2s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+MONGO_CONNECTION_STRING = os.getenv('MONGO_URI')
 MONGO_DATABASE_NAME = 'Tis4'
 PESQUISAS_COLLECTION = 'Pesquisas'
 ENVIOS_COLLECTION = 'Envio'
